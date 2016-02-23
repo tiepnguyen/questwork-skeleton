@@ -1,0 +1,13 @@
+RewriteEngine on
+
+# Disable directory listing
+# Options -Indexes
+
+# Route requests to index
+# RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]
+
+<Files ~ "\.html$">
+	Deny from all
+</Files>

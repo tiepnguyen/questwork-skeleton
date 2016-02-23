@@ -1,0 +1,26 @@
+{
+	"name": "questwork/skeleton",
+	"description": "Lightning fast MVC framework for PHP",
+	"keywords": ["questwork", "framework", "mvc"],
+	"type": "library",
+	"homepage": "https://github.com/tiepnguyen/questwork",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Tiep Nguyen",
+			"email": "tiep@tiep.info",
+			"homepage": "https://tiep.info"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"questwork/core": "dev-master",
+		"questwork/http": "dev-master",
+		"questwork/logger": "dev-master",
+		"questwork/dbo": "dev-master",
+		"questwork/orm": "dev-master"
+	},
+	"require-dev": {
+		"ccampbell/chromephp": "dev-master"
+	}
+}
