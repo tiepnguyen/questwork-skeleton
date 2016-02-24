@@ -15,7 +15,6 @@
 	"require": {
 		"php": ">=5.4.0",
 		"questwork/core": "dev-master",
-		"questwork/http": "dev-master",
 		"questwork/logger": "dev-master",
 		"questwork/dbo": "dev-master",
 		"questwork/orm": "dev-master"
